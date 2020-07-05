@@ -24,3 +24,7 @@ python    | 172.18.0.1 - - [05/Jul/2020 06:11:27] "GET /favicon.ico HTTP/1.1" 40
 
 
 ### Deploy the app to Openshift
+
+```text
+$ oc new-app https://github.com/zeldi/python-openshift.git --name simple-python
+```
